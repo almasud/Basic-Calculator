@@ -9,7 +9,7 @@ input_text = tk.StringVar()
 root.geometry("325x355")  # width 325 and height 355
 root.resizable(0, 0)
 root.title("Calculator")
-root.wm_iconbitmap(r"calculator.ico")
+root.iconbitmap(r"calculator.ico")
 
 # Update the input field whenever enter a number
 def btn_press(item):
